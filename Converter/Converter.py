@@ -72,6 +72,6 @@ while True:
     else:
         print("Unknown unit.")
 
-f = input("Press enter to leave.")
+f = input("Press enter to exit.")
 
 

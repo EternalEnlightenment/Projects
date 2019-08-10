@@ -1,13 +1,13 @@
 import time
 
-print("Welcome in the program to counting, insert a first digit:")
+print("Welcome in the program to counting, insert a first number:")
 y = int(input())
 
-print("Insert a second digit:")
+print("Insert a second number:")
 x = int(input())
 
 if x == y:
-    print("The digits are equal!")
+    print("The numbers are equal!")
 
 print(y)
 

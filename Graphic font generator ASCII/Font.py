@@ -1,0 +1,55 @@
+import pyfiglet
+
+def czcionka():
+
+    default = pyfiglet.figlet_format("Hello")
+    slant = pyfiglet.figlet_format("Hello", "slant")
+    three_d = pyfiglet.figlet_format("Hello", "3-d")
+    threex = pyfiglet.figlet_format("Hello", "3x5")
+    lineoblique = pyfiglet.figlet_format("Hello", "5lineoblique")
+    alphabet = pyfiglet.figlet_format("Hello", "alphabet")
+    banner = pyfiglet.figlet_format("Hello", "banner3-D")
+    doh = pyfiglet.figlet_format("Hello", "doh")
+    isometric = pyfiglet.figlet_format("Hello", "isometric1")
+    letters = pyfiglet.figlet_format("Hello", "letters")
+    alligator = pyfiglet.figlet_format("Hello", "alligator")
+    matrix = pyfiglet.figlet_format("Hello", "dotmatrix")
+    bubble = pyfiglet.figlet_format("Hello", "bubble")
+    bulbhead = pyfiglet.figlet_format("Hello", "bulbhead")
+    digital = pyfiglet.figlet_format("Hello", "digital")
+
+    print("Font number 1:")
+    print(default)
+    print("Font number 2:")
+    print(slant)
+    print("Font number 3:")
+    print(three_d)
+    print("Font number 4:")
+    print(threex)
+    print("Font number 5")
+    print(lineoblique)
+    print("Font number 6:")
+    print(alphabet)
+    print("Font number 7:")
+    print(banner)
+    print("Font number 8:")
+    print(doh)
+    print("Font number 9:")
+    print(isometric)
+    print("Font number 10;")
+    print(letters)
+    print("Font number 11;")
+    print(alligator)
+    print("Font number 12;")
+    print(matrix)
+    print("Font number 13;")
+    print(bubble)
+    print("Font number 14;")
+    print(bulbhead)
+    print("Font number 15;")
+    print(digital)
+
+
+
+
+

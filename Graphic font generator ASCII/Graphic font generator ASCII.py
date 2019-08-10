@@ -12,7 +12,7 @@ while True:
     x = input()
 
     if not x.isdigit():
-        print("Not a digit! Insert a correct digit!")
+        print("Not a number! Insert a correct number!")
 
     elif x == "1":
         font = "default_font"
@@ -75,7 +75,7 @@ while True:
         break
 
     else:
-        print("Not a correct digit! Insert a correct digit!")
+        print("Not a correct number! Insert a correct number!")
 
 print("Insert a sentence which you want to generate.")
 sentence = input()
